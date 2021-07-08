@@ -1,0 +1,50 @@
+@media (max-width: 1100px){
+	.container{
+		flex-direction: column;
+	}
+}
+
+
+@media (max-width: 630px){
+	.container{
+		background-color: red;
+	}
+}
+@media (max-width: 900px){
+	.center-box{
+		margin-top: 200px;
+		margin-left: 200px;
+		font-size: 50px;
+		background-color: blueviolet;
+	}
+}
+@media (max-width: 700px){
+	.main_box{
+		margin-top: 30px;
+		padding: 50px;
+		background-color: grey;
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+@media (max-width: 550px){
+	.main_box{
+		flex-direction: column;
+	}
+}
+@media (max-width: 400px){
+	.mini_description,
+	.plot{
+		color: yellow;
+		flex-direction: row;
+	}
+}
+@media (max-width: 320px){
+	.box{
+		width: 60%;
+		flex-direction: column;
+		background-color: darkorange;
+	}
+}
